@@ -1,0 +1,392 @@
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="demo"></p>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>New html </title>
+
+</head>
+
+<body>
+<h1>NEW WORLD </h1>
+<h2 id="h1"></h2>
+<h2 id="h2"></h2>
+
+<button onclick="myfunction()">click Me</button>
+<h3 id="h3"></h3>
+<button onclick="myfunction1()">click step 1</button> <br>
+<h2 id="h4"></h2>
+<h1>ENTERY FROM</h1>
+
+<from>
+    
+    NAME:<input type="text" id="name"> <br>
+    AGE:<input type="number" id="age"> <br>
+    LAND MARK:<input type="text" id="landmark"> <br>
+    ADDRESS:<input type="text" id="address"> <br>
+    PIN:<input type="number" id="pin"> <BR>
+
+
+  <!-- <label for="cars">Choose a car:</label> -->
+
+
+</from>
+
+
+<button  onclick="submit()" > submit</button>
+<h3 id="h6"></h3>
+<button onclick="reset()"  > reset</button>
+<h3 id="h7"></h3>
+<h2> fees payment </h2>
+<button id="h5" >payment link</button> <br>
+<label for="car">select the car</select></label>
+<select name="cars" id="cars">
+    <option value="tata">tata</option>
+    <option value="jack">jack</option>
+    <option value="swift">swift</option>
+    <option value="hundai">hundai</option> 
+    </select><br><br>
+    
+    <button onclick="submit" id="ok">ok</button>
+
+    <br>
+    <label for="search"> google search:</label>
+    <input type="search" id="search" name="search">
+    <input type="submit" value="search">
+
+    <br></br>
+
+    <label for="phone">phone number:</label>
+    <input type="tel" id="phone" name="phone" pattern="0-9">
+    <input type="submit" value="ok">
+    
+    <br></br>
+
+    <label for="time1">set timing</label>
+    <input type="time" id="time1" name="time1" >
+    <input type="submit" value="submit">
+     
+<!--radio button-->
+
+<form action="/action_page.php"></form>
+
+<p1>please select your language</p1> <br>
+ <input type="radio" id="html" name="fav_language" value="HTML">
+ <label for="html">HTML</label><br>
+<input type="radio" id="css" name="fav_language" value="css">
+<label for="css">CSS</label> <br>
+<input type="radio" id="java script" name="fav_language" value="javascript">
+<label for="javascript" >javascript</label>
+
+<br>
+
+<p1> please select your age</p1><br>
+<input type="radio" id="age" name="age" value="20">
+<label for="age">0-20</label><br>
+<input type="radio" id="age1" name="age" value="40">
+<label for="age1">21-40</label><br>
+<input type="radio" id="age2" name="age" value="60">
+<label for="age2">41-60</label><br>
+<input type="submit" value="submit">
+
+</form>
+
+<p>&#128512;</p>
+
+<p id="demo111"></p>
+
+<form>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="bike">  
+    <label for="vehicle1" >i have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="car">
+    <label for="vehicle2">i have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="sumo">
+    <label for="vehicle3">i have car</label>
+
+
+</form>
+
+<form>
+    <label for="date1">brithday</label>
+<input type="date" id="date1" name="date1">
+
+<br><br>
+
+
+
+<label for="date">applying last date:01/01/2000:</label> 
+<input type="date" id="date" name="date" max="02/01/2000">
+<input type="submit" value="Submit"> <br>
+
+<label FOR="vol">(0 to 500)</label>
+<input type="range" id="vol" min="0" max="500">
+<input type="submit" value="submit"><br><br>
+
+<form>
+    <label for="week">Select a week:</label>
+    <input type="week" id="week" name="week">
+    <input type="submit" value="Submit">
+  </form>
+</form>
+
+<form>
+    <label for="homepage">Add your homepage:</label>
+    <input type="url" id="homepage" name="homepage">
+    <input type="submit" value="Submit">
+  </form>-
+
+  <form > 
+    <label for="birthdaytime">Birthday (date and time):</label>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+    <input type="submit" value="Submit">
+  </form>
+
+ <h1> new JS</h1>
+  <p id="demo"></p>
+
+
+  <button onclick="myFunction()">Click me</button>
+
+<p id="demo2"></p>
+
+<p>A function is triggered when the button is clicked. The function outputs some text in a p element with id="demo".</p>
+
+<body>
+    <h3>its onblur function the input text to upper case.</h3>
+
+    Enter your name: <input type="text" name="fname" id="fname" onblur="myFunction()"><br> <br>
+
+<p>onchange function</p>
+    <p>Select a new car from the list.</p>
+
+<select id="mySelect" onchange="myFunction()">
+  <option value="Audi">Audi</option>
+  <option value="BMW">BMW</option>
+  <option value="Mercedes">Mercedes</option>
+  <option value="Volvo">Volvo</option>
+</select>
+
+<p>When you select a new car, a function is triggered which outputs the value of the selected car.</p>
+
+<p id="demo3"></p>
+
+<h2>oninput event</h2>
+<p> its working function on letter typing show on under words</p>
+<input type="text" id="myinput" oninput="myfunction()">
+<p id="demo4"></p>
+
+<h2> oninvalid</h2>
+<p>If you click submit, without filling out the text field, an alert message will occur.</p>
+<form action="/action_page.php" method="get">
+  Name: <input type="text" oninvalid="alert('You must fill out the form!');" name="fname" required>
+  <input type="submit" value="Submit">
+</form>
+<p><strong>Note:</strong> The oninvalid event is not supported in Safari.</p>
+
+<div>
+<meter type="meter"> 
+<label for="meter">speedometer</label>
+ </div>
+
+
+<script>
+function myFunction() {
+  document.getElementById("demo2").innerHTML = "Hello World";
+}
+</script>
+<h2>aside topic in html</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero veritatis velit tempore qui earum magnam minus dicta in inventore distinctio.</p>
+<aside>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at!</p>
+</aside>
+<p>Lorem ipsum dolor sit amet consectetur <abbr title="facebook" >FB</abbr>elit. Ex, nesciunt. Eveniet numquam aliquam enim sequi repudiandae repellendus et cupiditate dicta.</p>
+<style>
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+</style>
+
+<h2>details topics in html</h2>
+<details>
+  <summary>details for lorem</summary>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur voluptate quas consequatur vero pariatur, incidunt veniam. Obcaecati cum omnis nobis quam mollitia aspernatur, voluptatibus nam, impedit reprehenderit veniam quo? Velit explicabo rerum consectetur beatae inventore tempora dolore? Iusto, autem soluta?</p>
+</details>
+
+<h2>section topic in html</h2>
+<section>
+  <h3>google</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, unde amet labore impedit corporis iusto, possimus commodi architecto ullam magnam, autem ad repellat adipisci earum? Facere deserunt culpa esse labore.</p>
+</section>
+<section>
+  <h3>youtube</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam et ab debitis tempore autem fugiat vel reiciendis est consectetur. Distinctio nostrum laborum facilis alias blanditiis ullam molestiae nobis molestias aperiam.</p>
+</section>
+<h2> main topic in html</h2>
+<main>
+  <h1>Web Side</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, hic.</p>
+  <article>
+    <h1>google</h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit reiciendis voluptas tenetur vitae fugit dolor autem, ipsum fugiat iusto aliquid ab, doloremque, quia adipisci sunt veritatis ipsa ut enim voluptatem?</p>
+  </article>
+  <article>
+    <h1>youtube</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat alias aut nisi delectus maxime odio ut tenetur! At, nesciunt et ut officia voluptates voluptatibus blanditiis doloremque, possimus, cupiditate sit sequi!</p>
+  </article>
+  <article>
+    <h1>facebook</h1>
+    <p>Lorem ipsum dolor sit amet consectetur elit. Ea possimus eaque odio sit sunt error ad rerum voluptates inventore molestias a commodi quisquam, temporibus recusandae beatae facere ullam enim optio!</p>
+  </article>
+</main>
+<h2>footer in html</h2>
+<footer>
+  <p>welcome to google</p>
+  <p>&copy;2023 new year</p>
+  
+</footer>
+<nav>
+  <a href="file:///C:/Users/HP/Desktop/sathish/project/practice/java%20script/testing.html">chrome</a>
+</nav>
+<article>
+ <p>the articles of name</p>
+ <time datetime="2000-05-12 14.50">june</time>
+</article>
+
+<h3>caption tag</h3>
+<caption>Monthly savings</caption>
+
+
+<h3>The dl, dd, and dt elements</h3>
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+<h3>radio tag</h3>
+<input type="radio" name="ee">
+<label for="radio">html</label><br>
+<input type="radio" name="bb">
+<label for="r">css</label><br>
+
+<h3>number tag</h3>
+<input type="number" step="2">
+<label for="sss">phone number</label> <br>
+
+<input type="hidden" name="ff">
+<label for="sss">phone number1</label>
+
+<input type="color"> <label >my fauvirator</label><br>
+
+<h3>fieldset</h3>
+<fieldset>
+  <legend>personal details</legend>
+  <label >name:</label>
+  <input type="text" placeholder="your name" required>
+  <label >age:</label>
+  <input type="number">
+</fieldset>
+
+<h3>textarea</h3>
+<textarea></textarea>
+<button>submit</button><br>
+
+<h3>progress</h3>
+<label >downloading</label>
+<progress  value="25" max="100"></progress><br>
+
+<h3>speedometer</h3>
+<label>speedometer</label>
+<meter value="60" max="100" min="0"></meter>
+
+
+<script>
+
+let day;
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+}
+document.getElementById("demo").innerHTML = "Today is " + day;
+
+
+   
+
+    
+
+    var h1=document.getElementById("h1")
+    console.log(h1.textContent )
+    h1.textContent="welcome new world"
+    h2.textContent="start new journe"
+
+    function myfunction(){
+   h3.textContent ="welcome to fortune way"
+    }
+
+    function myfunction1(){
+   h4.textContent ="Tody have a nice day"
+    }
+
+    function submit(){
+    //    h6.textContent="yes save all records"
+   
+       let name = document.getElementById('name').value;
+       let age = document.getElementById('age').value;
+       let landmark = document.getElementById('landmark').value;
+       let address = document.getElementById('address').value;
+       let pin = document.getElementById('pin').value;
+        console.log("age",age,pin)
+       h6.textContent = "My name is: "+ name+", and my age is: "+age+", address on: "+address+", "+landmark+", pin is :"+pin
+        
+    }
+
+    function reset(){
+       let name =document.getElementById('name').value = "";
+       let age = document.getElementById('age').value= "";
+       let landmark = document.getElementById('landmark').value= "";
+       let address = document.getElementById('address').value= "";
+       let pin = document.getElementById('pin').value= "";
+
+        //h7.textContent="yes delete all records"
+    }
+
+  
+    </script>
+    <style src="testing.css"></style>
+    <script src="testing.JS"></script>
+          
+</html>
