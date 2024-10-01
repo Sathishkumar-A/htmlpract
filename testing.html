@@ -11,9 +11,11 @@
 </html> -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>New html </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW HTML</title>
 
 </head>
 
@@ -29,12 +31,16 @@
 <h1>ENTERY FROM</h1>
 
 <from>
-    
-    NAME:<input type="text" id="name"> <br>
-    AGE:<input type="number" id="age"> <br>
-    LAND MARK:<input type="text" id="landmark"> <br>
-    ADDRESS:<input type="text" id="address"> <br>
-    PIN:<input type="number" id="pin"> <BR>
+    <label for="name">NAME:</label>
+    <input type="text" id="name"> <br>
+    <label for="age">AGE:</label>
+    <input type="number" id="age"> <br>
+    <label for="landmark">LAND MARK:</label>
+    <input type="text" id="landmark"> <br>
+    <label for="address">ADDRESS:</label>
+    <input type="text" id="address"> <br>
+    <label for="pin"> PIN:</label>
+   <input type="number" id="pin"> <BR>
 
 
   <!-- <label for="cars">Choose a car:</label> -->
@@ -86,7 +92,7 @@
 <input type="radio" id="css" name="fav_language" value="css">
 <label for="css">CSS</label> <br>
 <input type="radio" id="java script" name="fav_language" value="javascript">
-<label for="javascript" >javascript</label>
+<label for="java script" >javascript</label>
 
 <br>
 
@@ -143,7 +149,7 @@
     <label for="homepage">Add your homepage:</label>
     <input type="url" id="homepage" name="homepage">
     <input type="submit" value="Submit">
-  </form>-
+  </form>
 
   <form > 
     <label for="birthdaytime">Birthday (date and time):</label>
@@ -163,8 +169,9 @@
 
 <body>
     <h3>its onblur function the input text to upper case.</h3>
+    <label for="fname"> Enter your name: </label>
 
-    Enter your name: <input type="text" name="fname" id="fname" onblur="myFunction()"><br> <br>
+   <input type="text" name="fname" id="fname" onblur="myFunction()"><br> <br>
 
 <p>onchange function</p>
     <p>Select a new car from the list.</p>
@@ -182,6 +189,7 @@
 
 <h2>oninput event</h2>
 <p> its working function on letter typing show on under words</p>
+<label for="myinput"></label>
 <input type="text" id="myinput" oninput="myfunction()">
 <p id="demo4"></p>
 
@@ -193,19 +201,16 @@
 </form>
 <p><strong>Note:</strong> The oninvalid event is not supported in Safari.</p>
 
-<div>
-<meter type="meter"> 
-<label for="meter">speedometer</label>
- </div>
-
-
 <script>
 function myFunction() {
   document.getElementById("demo2").innerHTML = "Hello World";
 }
 </script>
+
 <h2>aside topic in html</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero veritatis velit tempore qui earum magnam minus dicta in inventore distinctio.</p>
+<p>😃Lorem ipsum dolor sit amet <mark> consectetur </mark>adipisicing elit. Vero veritatis velit tempore qui earum magnam minus dicta in inventore distinctio.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt obcaecati quisquam voluptatum tempora, at atque saepe temporibus hic voluptatibus corrupti ea! Aperiam recusandae nesciunt inventore excepturi? Tempora, reprehenderit consequatur.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste velit, maxime deserunt natus cumque amet quae, enim quaerat, illum accusantium consectetur voluptates ullam. Quia sequi iusto et omnis hic voluptatum totam, ipsa asperiores, enim doloremque praesentium eligendi repudiandae? Ducimus quis quam dolores eveniet natus ut aliquid nihil nesciunt mollitia quos.</p>
 <aside>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at!</p>
 </aside>
@@ -281,12 +286,12 @@ aside {
 
 <h3>radio tag</h3>
 <input type="radio" name="ee">
-<label for="radio">html</label><br>
+<label for="ee">html</label><br>
 <input type="radio" name="bb">
 <label for="r">css</label><br>
 
 <h3>number tag</h3>
-<input type="number" step="2">
+<input type="number" step="2" name="sss">
 <label for="sss">phone number</label> <br>
 
 <input type="hidden" name="ff">
@@ -295,7 +300,7 @@ aside {
 <input type="color"> <label >my fauvirator</label><br>
 
 <h3>fieldset</h3>
-<fieldset>
+<fieldset id="fldset">
   <legend>personal details</legend>
   <label >name:</label>
   <input type="text" placeholder="your name" required>
@@ -303,8 +308,9 @@ aside {
   <input type="number">
 </fieldset>
 
+
 <h3>textarea</h3>
-<textarea></textarea>
+<textarea >pls enter ur address</textarea>
 <button>submit</button><br>
 
 <h3>progress</h3>
@@ -314,6 +320,30 @@ aside {
 <h3>speedometer</h3>
 <label>speedometer</label>
 <meter value="60" max="100" min="0"></meter>
+
+<h3>vedio tag in html</h3>
+<video controls  src="./vedios/2436088-uhd_2560_1440_25fps.mp4" height="200" width="400"></video>
+
+
+<h3>audio tags in html</h3>
+<label > play to music:</label><br>
+<audio controls src="./vedios/Vadachennai-Theme-MassTamilan.com.mp3"></audio>
+
+<h3>picture tag in html</h3>
+<picture>
+  <source srcset="vedios/photos/image.png" >
+</picture>
+
+<h3>iframe top in html</h3>
+<iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe><br>
+
+<iframe src="https://www.youtube.com/embed/ZZbTlgfa2Dg" ></iframe>
+
+<h3>href tag in html</h3>
+<a  href="https://youtu.be/RLzC55ai0eo?si=2yIZE8M0VBG6CL9l">google</a>
+
+
+
 
 
 <script>
@@ -386,7 +416,8 @@ document.getElementById("demo").innerHTML = "Today is " + day;
 
   
     </script>
-    <style src="testing.css"></style>
+</body>
+
     <script src="testing.JS"></script>
           
 </html>
