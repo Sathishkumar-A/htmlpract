@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(72, 226, 226);
+    margin-top: 10%;
+    margin-left: 40%;
+}
+.box{
+    border: 1px solid cornsilk;
+    background-color: aliceblue;
+    border-radius: 4%;
+    width: 320px;
+    height: 420px;
+   text-align: center;
+   
+}
+.ins{
+    margin-top: 15%;
+}
+
+
+h1{
+    color: rgb(15, 133, 133);
+}
+.chbox>button{
+    
+    background-color: rgb(15, 133, 133);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+footer{
+ margin-top: 25%;
+}
