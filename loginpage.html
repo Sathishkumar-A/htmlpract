@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN page</title>
     <link rel="stylesheet" href="loginpage.css">
 </head>
 <body>
+    
 <div class="box">
+    <h3>Login</h3>
     <div class="ins">
-    <h1><pre>Login</pre></h1>
-    <input type="email" placeholder="Email" ><br>
-    <input type="password" placeholder="password">
+    <input type="email" class="email credential" placeholder="Email" ><br>
+    <input type="password" class="paswrd credential" placeholder="Password">
+    <div class="check-box">
+        <input type="checkbox" >
+        <span>Show Password</span>
+    </div>
 </div>
+
 <div class="chbox">
-<p >
-    <input type="checkbox">Show password</input>
-</p>
-    <button>sign in</button>
+<button>sign in</button>
+<div class="forgot-area">Forgot <span>Username / Password</span>?</div>
+<div class="forgot-area">Don't have an account? <span>Sign Up</span></div>
 </div >
-    <Footer class="ftr">
+    <!-- <Footer class="ftr">
         <p>Forget 
-            <a href="mailto:hege@example.com">username / password</a> ?</p>
-            <p>Don't have an account?
+             <a href="mailto:hege@example.com">username / password</a> ?</p>
+        <p>Don't have an account?
                 <a href="passwod.com">Sing up</a>
             </p>
-    </Footer>
+    </Footer> -->
 </div>
 </body>
 </html>

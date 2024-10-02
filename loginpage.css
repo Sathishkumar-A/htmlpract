@@ -1,32 +1,100 @@
 body{
     background-color: rgb(72, 226, 226);
-    margin-top: 10%;
-    margin-left: 40%;
+    /* top: 10%; */
+    /* left: 15%; */
+    /* max-width: 100%; */
+    width: 96%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: linear-gradient(225deg, rgb(72, 226, 226), #b6ecf2);
 }
 .box{
     border: 1px solid cornsilk;
-    background-color: aliceblue;
-    border-radius: 4%;
-    width: 320px;
-    height: 420px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    top:10%;
+    left: 20%;
+    position: absolute;
    text-align: center;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
    
 }
 .ins{
-    margin-top: 15%;
+    /* margin-top: 15%; */
 }
 
 
-h1{
+h3{
+    /* zoom: 120%; */
     color: rgb(15, 133, 133);
+    /* margin-top: 10%; */
+    font-size: 24px;
+    font-weight: 500;
+    
+    
+
 }
-.chbox>button{
+.chbox{
+    margin-bottom: 30px;
+}
+.chbox button{
     
     background-color: rgb(15, 133, 133);
     color: whitesmoke;
-    border-radius: 5px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 25px auto;
+    text-transform:uppercase;
+    border: unset;
+    cursor: pointer;
+}
+
+.check-box{
+    text-align: left;
+    margin-left: 10.5%;
+}
+
+.check-box input{
+    width: 11px;
+    top: 2px;
+    position: relative;
+    cursor: pointer;
+}
+.check-box span{
+    font-size: 13px;
+    color: #636262;
+    font-weight: 500;
 }
 
 footer{
- margin-top: 25%;
+ /* margin-top: 25%; */
 }
+.credential{
+    width: 70%;
+    padding: 15px;
+    margin: 30px 15px 0px 15px ;
+    border: 1px solid #ccc;
+}
+.forgot-area{
+    font-size: 12px;
+    color: #858383;
+    padding: 5px;
+}
+.forgot-area span{
+    color: #11adad;
+    cursor: pointer;
+    font-weight: 500;
+}
+/* .email {
+    
+    width: 70%;
+}
+.paswrd{
+    width: 70%;
+    
+} */
