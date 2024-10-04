@@ -1,8 +1,5 @@
 body{
     background-color: rgb(72, 226, 226);
-    /* top: 10%; */
-    /* left: 15%; */
-    /* max-width: 100%; */
     width: 96%;
     max-width: 100%;
     box-sizing: border-box;
@@ -19,24 +16,14 @@ body{
     left: 20%;
     position: absolute;
    text-align: center;
-   /* display: flex;
-   justify-content: center;
-   align-items: center; */
    
 }
-.ins{
-    /* margin-top: 15%; */
-}
-
+.i
 
 h3{
-    /* zoom: 120%; */
     color: rgb(15, 133, 133);
-    /* margin-top: 10%; */
     font-size: 24px;
     font-weight: 500;
-    
-    
 
 }
 .chbox{
@@ -71,9 +58,7 @@ h3{
     font-weight: 500;
 }
 
-footer{
- /* margin-top: 25%; */
-}
+
 .credential{
     width: 70%;
     padding: 15px;
@@ -90,11 +75,3 @@ footer{
     cursor: pointer;
     font-weight: 500;
 }
-/* .email {
-    
-    width: 70%;
-}
-.paswrd{
-    width: 70%;
-    
-} */
